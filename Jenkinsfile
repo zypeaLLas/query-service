@@ -23,7 +23,7 @@ pipeline {
           dockerImage = docker.build dockerimagename
         }
       }
-      }
+      
     }
 
     stage('Pushing Image') {
